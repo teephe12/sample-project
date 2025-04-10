@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button{
+    text-align: center;
+    background-color: rgba(6, 127, 18, 0.784);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+sup{
+    position: relative;
+    bottom: 1.5rem;
+    right: .7rem;
+    background-color: blue;
+    color: white;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 15rem;
+}
+
+.container button{
+    color: white;
+}

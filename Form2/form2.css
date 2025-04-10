@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+   background-image: linear-gradient(
+    37deg,
+    rgb(169, 236, 100),
+    rgb(2, 152, 219)
+  );
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    justify-content: space-around;
+    border-radius: 10px;
+    align-items: center;
+}
+
+h1{
+   text-align: left; 
+   border-left: #2196f3 solid 4px;
+   padding: 0 0 0 10px;
+   
+}
+
+input{
+    width: 80%;
+    padding: 5px;
+    border-radius: 7px;
+    border: black solid 2px;
+}
+
+button{
+    padding: 5px 30px;
+    border-radius: 5px;
+    border: none;
+    background: #2196f3;
+    color: white;
+    align-self: flex-start;
+    margin-left: 26px;
+}
